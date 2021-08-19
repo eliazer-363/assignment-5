@@ -31,6 +31,7 @@ getcar=()=>{
             carbody.appendChild(car1);
             carbody.appendChild(car2);
             carbody.appendChild(car3);
+            carbody.appendChild(deletebtn);
              
             let url2='https://bluecollarsclientwork.000webhostapp.com/carbrowser/getcars.php';
             deletebtn.addEventListener('click',(e)=>{
