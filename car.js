@@ -43,7 +43,7 @@ getcar=()=>{
         
         "company":company,
         
-        "Status":Status,
+        "status":status,
 
                 };
                 let params=JSON.stringify(data);
