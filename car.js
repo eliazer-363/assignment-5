@@ -52,7 +52,7 @@ getcar=()=>{
                 xhr.onload=()=>{
                     if(xhr.status==200||xhr.readyState==4)
                     {
-                        console.log('Artist deleted');
+                        console.log('car deleted');
                     }
                     else
                     {
