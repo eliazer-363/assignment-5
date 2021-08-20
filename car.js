@@ -33,17 +33,17 @@ getcar=()=>{
             carbody.appendChild(car3);
             carbody.appendChild(deletebtn);
              
-            let url2='https://bluecollarsclientwork.000webhostapp.com/carbrowser/getcars.php';
+            let url2='https://bluecollarsclientwork.000webhostapp.com/carbrowser/deletecar.php';
             deletebtn.addEventListener('click',(e)=>{
                 e.preventDefault();
                 let ID=car.ID;
                 let data={
                     "ID":ID,
-        "name":name,
+//         "name":name,
         
-        "company":company,
+//         "company":company,
         
-        "status":status,
+//         "status":status,
 
                 };
                 let params=JSON.stringify(data);
