@@ -36,9 +36,9 @@ getcar=()=>{
             let url2='https://bluecollarsclientwork.000webhostapp.com/carbrowser/deletecar.php';
             deletebtn.addEventListener('click',(e)=>{
                 e.preventDefault();
-                let ID=car.ID;
+                let id=car.id;
                 let data={
-                    "ID":ID,
+                    "id":ID,
 //         "name":name,
         
 //         "company":company,
