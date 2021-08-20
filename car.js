@@ -38,7 +38,7 @@ getcar=()=>{
                 e.preventDefault();
                 let id=car.id;
                 let data={
-                    "id":ID,
+                    "id":id,
 //         "name":name,
         
 //         "company":company,
